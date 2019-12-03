@@ -1,0 +1,8 @@
+[
+    {"country": "au", "observation": 538},
+    {"country": "ca", "observation": 3000},
+    {"country": "de", "observation": 105},
+    {"country": "gb", "observation": 1905},
+    {"country": "other", "observation": 9670},
+    {"country": "us", "observation": 65114}
+]

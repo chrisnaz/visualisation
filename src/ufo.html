@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<!--
+	HTML5
+-->
+<html>
+	<head>
+		<title>UFO viz</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet' />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<script src="https://www.amcharts.com/lib/4/core.js"></script>
+		<script src="https://www.amcharts.com/lib/4/charts.js"></script>
+		<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>Breaking News about UFOs</h1>
+						</p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#first">Line chart</a></li>
+							<li><a href="#second">Barchart</a></li>
+							<li><a href="#cta">Map</a></li>
+							<li><a href="#protectYourself">Conclusion</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main special">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Are we alone in the universe ?</h2>
+										</header>
+										<p>
+										Are we alone in the universe ? Are you already asking this question ?
+										</p>
+										<p>			
+										"Oooh yes!"
+										</p>
+										<p>
+										So this visualization is <em>for you !</em> <br>
+										Don't wait and <a class="scrolly" href="#first">click here</a>.
+										</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Aliens are coming !</h2>
+								</header>
+
+								<svg id="linechart"></svg>
+									
+								<ul class="features">
+									<li>
+										<h3>Aliens are coming !</h3>
+										<p>
+										You can see the number of spotted UFOs, made everywhere in the world,
+										during each year from the early 1930s to the present.</p>
+										<p>And what can you discover ?</p>
+										<font size="6">Boom!</font> An explosion in the last few years.
+										</p>
+										<p>Aliens are plotting something against us !</p>
+										<p>Want to know more, <a class="scrolly" href="#second">click here</a>.</p>
+									</li>
+								</ul>
+							</section>
+
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>The USA are targeted !</h2>
+								</header>
+
+								<div id="chartdiv"></div>
+
+								<ul class="features">
+									<li>
+										<h3>The USA are targeted !</h3>
+										<p>
+										This barchart shows the total number of observations
+										for Germany (DE), the United States (US), Canada (CA), 
+										England (GB) and the other countries (AU).</p>
+										<p>As you can see, the greatest concentration is in the <font size="6">United States !</font></p>
+										<p>Because we are the first military power, we are the target !</p>
+										<p>Want to know if the place where you live is safe ? <a class="scrolly" href="#cta">click here</a>.</p>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>There is no safe place anymore !</h2>
+								</header>
+								
+								<p>Put your mouse on each state to check its threat level.</p>
+
+								<div id="map"></div>
+
+								<ul class="features">
+									<li>
+										<h3>There is no safe place anymore !</h3>
+										<p>As you can see, no state is safe anymore !</p>
+										<p>Want to do something ? <a class="scrolly" href="#protectYourself">click here</a>.</p>
+									</li>
+								</ul>
+							</section>
+						
+						<!-- Protect yourself -->
+							<section id="protectYourself" class="main special">
+								<header class="major">
+									<h2>We have to protect ourself !</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<p>
+											As we have seen, we have to protect ourself !
+										</p>
+										<p>
+											Hopefully, our dear <a href="https://www.whitehouse.gov/people/donald-j-trump/">President Trump</a>
+											has already began to deal with this threat. He wants to create a space force to fight against aliens.
+										</p>
+										<p>
+											But to achieve it, he needs our support !
+										</p>
+										<p>
+											As the midterms are coming, if you love our children and want to protect them, be sure to choose
+											the right candidate !
+										</p>
+										<p>
+											<font size="6">Preserve our freedom ! Vote <a href="https://www.gop.gov/" target="blank_">Republican</a> !</font>
+										</p>
+									</li>
+								</ul>
+								<div class="image"><img style="width: 150px; object-fit: contain" src="images/spaceForce.jpg" alt="" /></div>
+							</section>
+							
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<span class="image"><img style="width: 150px; object-fit: contain" src="images/logo.png" alt="" /></span>
+						</section>
+						<section>
+							<h2>Realized by</h2>
+							
+							<p>Julien Albert <br />
+								Youri Derlet <br />
+								Christian Nazili W.
+							</p>
+							
+							<br />
+							
+							<p class="copyright">&copy; Belgium 2018.</p>
+						</section>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script src="https://d3js.org/d3.v3.min.js"></script>
+			<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>
+			<script src="./viz/line_chart.js"></script>
+			<script src="./viz/map.js"></script>
+			<script src="./viz/bar_chart.js"></script>
+
+
+
+
+
+
+	</body>
+</html>
+
+<!-- Scripts -->
+
+<!-- Chart code -->
+
+	
+
+
